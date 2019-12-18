@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
+    background-repeat: no-repeat;
+    background: #181818;
+  
+    background-size: 1600px 1000px;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin: 0% 0%;
+  }
+ 
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    background-color: darkgray;
+  }
+ 
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+  }
+  nav > a {
+    margin: 2% 1% 2%;
+    height: 5%;
+    width: 7.5%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid white;
+  }
+ 
+  .has-border {
+    border-radius: 20px;
+    border: 2px solid #0795C3;
+    background: none;
+    padding: 10px;
+  }
+ 
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2%;
+  }
+ 
+  #profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0% auto;
+    grid-column: 2/3;
+  }
+ 
+  h1 {
+    color:white;
+    grid-column: 2/3;
+    margin: 0% auto;
+    border-bottom: 2px solid #1940A9;;
+  }
+ 
+  h2 {
+    grid-column: 2/3;
+    margin: 0% auto;
+    font-style: italic;
+  }
+ 
+  .small-text {
+    grid-column: 2/3;
+    color: white;
+    font-size: 10px;
+    margin: 0% auto;
+  }
+ 
+  button {
+    grid-column: 2;
+    margin: 0% auto;
+    width: 35%;
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 10px;
+    padding-bottom: 5%;
+    text-align: center;
+    color: gray;
+    letter-spacing: 4px;
+    font-style: italic;
+  }
