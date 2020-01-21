@@ -22,11 +22,8 @@ time, mark, audio, video {
 body {
     height: 100vh;
     display: grid;
-    grid-template-rows: repeat(1fr);
-    grid-template-columns: repeat(3, 1fr);
-    /*grid-template-areas: 
-    "stats stats"
-    "lorem time";*/
+    grid-template-rows: 1fr 25fr;
+
 }
 div{
     display: flex;
@@ -35,10 +32,28 @@ div{
     justify-content: center;
 
 }
+.soundeffect1{
+    display: grid;
+    border: 1px solid black;
+    font-size: medium;
+    background-image: url(bruh.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: left;
+    height: auto; 
+    margin: 0px 0px 0px 0px;
+}
+.soundeffect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+  
+
+}
 .blue {
     border: 2px solid blue;
     border-radius: 25px;
-    grid-template-areas: stats;
     font-size: 8vh ;
 }
 
@@ -56,3 +71,22 @@ div{
     font-size: 8vh ;
 }
 
+header{
+    grid-template-rows: 10fr 1fr;
+    display: grid;
+    background-color: gray;
+    border: 2px solid purple;
+}
+.top{
+    display: grid;
+    text-align: right;
+    margin-left: 180vh;
+    width: 40px;
+    border: 2px solid black;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    border: 10px solid yellow;
+}
