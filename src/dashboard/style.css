@@ -33,42 +33,44 @@ div{
 
 }
 .soundeffect1{
-    display: grid;
+    display: block;
     border: 1px solid black;
-    font-size: medium;
-    background-image: url(bruh.jpg);
-    background-repeat: no-repeat;
-    background-size: 220px;
-    background-position: left;
-    height: auto; 
-    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+    height: 100%;
+    grid-column-start: 1fr;
+    grid-column-end: 1.5fr;
+}
+
+.bruhsound{
+    display: block;
+    align-items: center;
+    margin-top: 5px;
 }
 .soundeffect{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     border: 1px solid black;
-  
-
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 .blue {
     border: 2px solid blue;
     border-radius: 25px;
-    font-size: 8vh ;
+    font-size: 40px ;
 }
 
 .red {
     border: 2px solid red;
     grid-template-areas: lorem;
     border-radius: 25px;
-    font-size: 8vh ;
+    font-size: 40px ;
 }
 
 .green{
     border: 2px solid green;
     grid-template-areas: time;
     border-radius: 25px;
-    font-size: 8vh ;
+    font-size: 40px ;
 }
 
 header{
@@ -86,7 +88,7 @@ header{
 }
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     border: 10px solid yellow;
 }
